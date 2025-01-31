@@ -2,6 +2,5 @@ streamlit
 sqlalchemy
 pandas
 plotly
-pymysql  # For MySQL
 psycopg2-binary  # For PostgreSQL
 bcrypt  # For password hashing
