@@ -1,7 +1,7 @@
 # auth.py
 from sqlalchemy.orm import Session
 from database import SessionLocal
-from models import User, UserRole
+from models import User
 import bcrypt
 
 def verify_password(plain_password, hashed_password):
